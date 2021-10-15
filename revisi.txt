@@ -1,0 +1,84 @@
+v 2.0.1
+- Harga Produk Keluar Border (clear)
+- Perkecil ukuran font di produk promo (clear)
+- Masukkan Icon untuk produk pbb (clear)
+- Logo Finance tertukar (clear)
+- Data Bank tidak bisa di akses (clear)
+
+v 2.0.2
+- Downline TIdak Sesuai (clear) 05/08/2021
+- edit marukup downline ditambahkan nama tokonya
+
+v 2.0.3
+- debug tidak bisa ngeprint karena nama toko null untuk user baru yang blm isi nama toko (clear)
+
+v 2.0.4
+- print transaksi gojek (clear)
+
+v 2.0.5
+- print semua produk (clear)
+
+v 2.0.6
+- print preview sn dan trxid (clear 02 September 2021)
+- refresh halaman depan dengan tab kebawah (clear 02 September 2021)
+- preview mutasi kirim saldo sesama funmo tidak nampil
+- print bawahnya terpotong (clear 02 September 2021)
+- nol nolnya masih ada, terus saldo yg kita kirim belum bisa di print atau di share
+
+v 2.0.7
+- selain produk ppob, di printnya, 'tagihan' ganti jadi 'harga'(clear 06/09/2021)
+
+v 2.0.8
+- edit harga jual
+- pemisah tagihan
+
+v 2.0.9
+- harga/tagihan di hasil print
+
+v 2.0.10 
+- print token pln (clear 10092021)
+- perbaikan harga downline (clear 11092021)
+
+v 2.0.11
+- preview mutasi di tambahkan ID trxid 
+- cek bluetooth di HP aktif atau tidak 
+- tidak menampilkan icon print untuk transaksi yang tidak bisa di print
+- perbaikan userinterface pilih printer
+
+v 2.0.12
+- preview mutasa ada minus nya (belum clear)
+- data voucher di kelopokkan berdasarkan provider
+- perbaikan respon alfamart dan virtual account
+
+v 2.0.13
+1. Menu Promo belum ada catatan operator (clear)
+2. Menu Game belum ada catatan operator (clear)
+3. Menu E-Money belum ada catatan operator (clear)
+4. Menu Roaming belum ada catatan operator (clear)
+5. Menu Entertaiment belum ada catatan operator (clear)
+6. Menu Pulsa Internasional belum ada catatan operator (clear)
+7. Total Biaya Virtual Account +1500 (clear)
+8. Total Biaya Alfa dan Indomaret 1500+2500 ( jasa Customer Service ) (clear)
+9. Sepertinya ada bug icon pada menu paket data > Data Injek > Kuota Telkomsel (clear)
+11. Refresh dengan tarik kebawah di icon lonceng ( Notifikasi ) (clear)
+12. Menampilkan Rekening Bank di history ketika status pending (clear)
+
+v 2.0.14
+1. Share Mutasi (clear)
+
+v.2.0.15
+1. menambahkan models di server, table p_flash 
+2. menambahkan routes di olahdata, table
+3. menambahkan function di olahdata controllor function promo
+
+v.2.0.16
+1. perbaikan pembayaran telkomsel (clear)
+2. perbaikan tampilan iklan atau promo
+
+v.2.0.17
+1. penambahan fitur pencarian downline
+2. perbaikan tampilan scan QR
+
+
+
+

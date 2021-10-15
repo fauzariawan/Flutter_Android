@@ -1,0 +1,23 @@
+{
+    "kode":17096,
+    "tgl_entri":"2021-04-01T10:10:23.653Z",
+    "penerima":"081375888942@funmo.co.id",
+    "tipe_penerima":"Y",
+    "pesan":"RC:00 #4248 CPLN.126100030354 SUKSES. SN/Ref: A S R U L AM/TARIFDAYA:R1/1300/JMLBLN:1/PERIODE:202104/RP:216127/DENDA:0/ADMIN:2500/TOTALTAG:218627/STAND:5598-5734. Saldo 306,286-0=306,286 @2021-04-01 10:10:23",
+    "status":0,
+    "tgl_status":"2021-04-01T10:10:23.653Z",
+    "kode_inbox":null,
+    "kode_transaksi":4248,
+    "kode_reseller":"FUN0002",
+    "bebas_biaya":1,
+    "is_perintah":0,
+    "kode_modul":null,
+    "prioritas":2,
+    "modul_proses":",",
+    "pengirim":null,
+    "kode_terminal":1,
+    "ctr_kirim":null
+}
+
+
+    

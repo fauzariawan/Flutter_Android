@@ -1,0 +1,249 @@
+name: android
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 2.0.17+2
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  location: #^3.2.2
+  connectivity: ^2.0.2
+  pinput: ^1.0.0
+  infinite_scroll_pagination: ^2.3.0
+  flutter_staggered_animations: ^0.1.3
+  shared_preferences: ^2.0.6
+  contacts_service: ^0.6.1
+  permission_handler: ^5.1.0+2
+  blue_thermal_printer: ^1.1.3
+  qr_flutter: ^4.0.0
+  flutter_socket_io: ^0.6.0
+  
+  flutter_dotenv: ^3.1.0 # environment variable
+  intl: ^0.17.0 # NumberFormat
+  flutter_spinkit: "^4.1.2" # loading animation
+  image_picker: ^0.7.3 # ambil gambar dari kamera hp
+  http: #^0.13.0
+  localstorage: #^3.0.6
+  carousel_slider: ^3.0.0
+  jwt_decode:
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.7.3 # untuk mengganti icon_launcher
+  flutter_launcher_name: 
+  # camera:
+  # path_provider:
+  # path:
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+  url_launcher: ^5.7.2
+  flutter_open_whatsapp: ^0.1.2
+  flutter_udid: ^1.0.1
+  flutter_countdown_timer: ^4.1.0
+  qr_code_scanner: ^0.3.5
+  pin_code_fields: ^6.1.0
+  simple_moment: ^1.1.1
+  minimize_app: ^0.1.1
+  flutter_bluetooth_serial: ^0.2.2
+  jiffy: ^4.1.0 #untuk membandingkan waktu
+  share: ^0.6.5+4
+  # share_plus: ^1.0.0
+  screenshot: ^1.2.3
+  image_gallery_saver: ^1.6.8
+  fluttertoast: ^8.0.8
+  path_provider: ^2.0.5
+  webview_flutter: ^1.0.7
+  cached_network_image: ^2.5.1
+  # scoped_model: ^1.1.0
+  # esc_pos_bluetooth: ^0.2.8
+  # bluetooth: ^0.1.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "image/funmo/ICON BULAT FUNMO.png"
+
+flutter_launcher_name:
+  name: "Funmobile"
+
+  # setelah memasukkan dependencies untuk icon_launcher step berikutnya
+  # jalankan perintah "flutter pub pub add flutter_launcher_icons"
+  # kemudian perintah "flutter pub run flutter_launcher_icons:main"
+  # kemudian matikan aplikasi lalu hidupkan kembali
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  fonts:
+    - family: Thermal
+      fonts:
+        - asset: fonts/Merchant Copy Doublesize.ttf
+          weight: 400
+        - asset: fonts/Merchant Copy Wide.ttf
+          weight: 500
+        - asset: fonts/Merchant Copy.ttf
+          weight: 600
+    - family: Lato-Black
+      fonts:
+        - asset: fonts/Lato-Black.ttf
+    - family: Roboto
+      fonts:
+        - asset: fonts/roboto/Roboto-Regular.ttf
+    - family: Raleway # cocok untuk tulisan yang agak buram abu2 gitu
+      fonts:
+        - asset: fonts/raleway/static/Raleway-Regular.ttf
+          weight: 400
+        - asset: fonts/raleway/static/Raleway-ExtraBold.ttf
+          weight: 800
+    - family: Libre_Baskerville
+      fonts:
+        - asset: fonts/libreBaskerville/LibreBaskerville-Regular.ttf
+          weight: 400
+        - asset: fonts/libreBaskerville/LibreBaskerville-Bold.ttf
+          weight: 800
+    - family: Amiri
+      fonts:
+        - asset: fonts/amiri/Amiri-Regular.ttf
+          weight: 400
+        - asset: fonts/amiri/Amiri-Bold.ttf
+          weight: 800
+    - family: Open-Sans
+      fonts:
+        - asset: fonts/opensans/OpenSans-Regular.ttf
+          weight: 400
+        - asset: fonts/opensans/OpenSans-ExtraBold.ttf
+          weight: 800
+      
+  
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+     - .env
+     - image/money.png
+     - image/iconBank.png
+     - image/iconEwallet.png
+     - image/iconVirtualAccount.png
+     - image/iconAlfamart.png
+     - image/iconIndomaret.png
+     - image/iconQris.png
+     - image/wellcome.png
+     - image/halamanUtama.png
+     - image/underMaintenance.jpg
+     - image/logooperator/pln.png
+     - image/funmo/icon/loadingPage.png
+     - image/funmo/logofunmini.png
+     - image/funmo/funmomini.png
+     - image/logooperator/axismini.png
+     - image/logooperator/indosatmini.png
+     - image/logooperator/smartfrenmini.png
+     - image/logooperator/telkomselmini.png
+     - image/logooperator/threemini.png
+     - image/logooperator/xlmini.png
+     - image/funmo/icon/tv.png
+     - image/logoLogin.jpg
+     - image/masuk.png
+     - image/user.png
+     - image/funmo/icon/Pulsa.png
+     - image/funmo/icon/promo.png
+     - image/funmo/icon/paketdata.png
+     - image/funmo/icon/paket telp dan sms.png
+     - image/funmo/icon/pln pascabayar.png
+     - image/funmo/icon/bpjs.png
+     - image/funmo/icon/finance.png
+     - image/funmo/icon/pascabayar.png
+     - image/funmo/icon/pdam.png
+     - image/funmo/icon/telkom.png
+     - image/funmo/icon/gas.png
+     - image/funmo/icon/ovo.png
+     - image/funmo/icon/dana.png 
+     - image/funmo/icon/transfer.png
+     - image/funmo/icon/gps.png
+     - image/lainnya.png
+     - image/dompetDigital.png
+     - image/funmo/icon/game.png
+     - image/funmo/icon/emoney.png
+     - image/funmo/icon/asuransi.png
+     - image/funmo/icon/roaming.png
+     - image/funmo/icon/internasional.png
+     - image/funmo/icon/pbb.png
+     - image/funmo/icon/entertainment.png
+     - image/funmo/FUN-03 fix content.png
+     - image/funmo/pilihMetodefix.png
+     - image/funmo/verifikasiOtp.png
+     - image/funmo/FUN-01 fix content.png
+     - image/funmo/sms.png
+     - image/funmo/wa.png
+     - image/byU2.png
+     - image/telkomsel - Copy.png
+     - image/indosat.png
+     - image/funmo/icon/cs2.png
+     - image/funmo/myLogo.jpg
+     - image/funmo/icon/reward.png
+     - image/funmo/icon/other.png
+     - image/funmo/icon/komisi.png
+     - image/funmo/icon/cs.png
+     - image/funmo/ICON BULAT FUNMO.png
+     - image/funmo/icon/topup2.png
+     - image/funmo/icon/ewallet.png
+     - image/funmo/icon/enterPin.png
+     - image/funmo/phoneClassic2.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+  ################################ DEPENDENCIES YANG DI HAPUS ################
+  # connectivity: ^2.0.2
+  # mapbox_gl: ^0.11.0
+  # flutter_sms_inbox: ^0.1.1+1
+  # qrscan: ^0.2.22
+  # permission_handler: ^7.0.0
+  # imei_plugin: ^1.2.0
+  # device_info: ^0.4.0+4
+  # double_back_to_close_app: ^1.2.0 # untuk keluar dari applikasi
